@@ -3,9 +3,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> this is a check project</title>
+    <title>this is form fill create practise </title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <header>
+
+    </header>
+    <main>
+        <section>
+            <h1> Please fill up this form:</h1>
+            <form>
+                <label for="name"> Your Name:
+                    <input type="text" placeholder="Enter Your Name" id="name">
+                </label>
+                <label for="email"> Your Email:
+                    <input type="text" placeholder="Enter Your Email" id="email">
+                </label>
+                <label for="phone"> Your Number:
+                    <input type="text" placeholder="Enter Your Number" id="phone">
+                </label>
+
+                <fieldset>
+                    <legend> Please select one </legend>
+                    <label for="social media">
+                        <input type="radio" name="media" id="social media">Facebook
+                    </label>
+                    <label for="social media">
+                        <input type="radio" name="media" id="social media">WhatsApp
+                    </label>
+                    <label for="social media">
+                        <input type="radio" name="media" id="social media">Linkedin
+                    </label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Select one or more </legend>
+                    <label for="social media">
+                        <input type="checkbox" name="media" id="social media">Facebook
+                    </label>
+                    <label for="social media">
+                        <input type="checkbox" name="media" id="social media">WhatsApp
+                    </label>
+                    <label for="social media">
+                        <input type="checkbox" name="media" id="social media">Linkedin
+                    </label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Special instruction</legend>
+                    <textarea name="" id="" cols="30" rows="6"></textarea>
+                </fieldset>
+
+                <input type="reset" value="Reset">
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
 </body>
 </html>
